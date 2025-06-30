@@ -83,7 +83,7 @@ if (
   mailvalidation(usermail) && 
   userpassword!=="" && 
   userpassword.length > 6
-)
+) {
 user={
   name:username,
   mail:usermail,
@@ -98,7 +98,7 @@ usernameinput.value = "";
 usermailinput.value = "";
 userpasswordinput.value = ""; 
 
-
+}
 });  
 
 // ending validations ----
