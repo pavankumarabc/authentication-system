@@ -112,4 +112,13 @@ input:focus{
         background-color:aliceblue;
     } 
     
+} 
+
+.card{ 
+    max-width: 300px; 
+    padding: 10px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color:#A294F9; 
+    font-size: 20px;
 }
