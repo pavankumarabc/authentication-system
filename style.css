@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column; 
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top:100px;
+    background-color: #f5f9ff; 
+    gap:10px;
+    
+}
+
+.container,.containertwo{ 
+   max-width:380px; 
+   width: 100%;
+   padding: 10px;  
+   border-radius: 4px; 
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+background-color: #ffffff; 
+}  
+
+.heading{ 
+    text-align: center; 
+    font-family: cursive; 
+    font-size: 20px;   
+    color:#1e90ff; 
+}
+form{
+    display: flex;
+    flex-direction: column; 
+    gap:10px;
+    padding: 10px; 
+   
+} 
+ .password-field{  
+    display: flex; 
+    flex-direction: column;
+    gap:10px;
+    position: relative;
+ } 
+ .password-field input{
+    width: 90%; 
+    height:20px; 
+ }
+ .password-field i{
+    position: absolute; 
+    top:35%;
+    right:30px;
+    transform:  translateY(-50%); 
+    cursor: pointer; 
+    font-size: 15px;
+ } 
+input{
+    width: 90%; 
+    padding: 10px; 
+    height:20px;  
+    border:1px solid #cdd9ed;
+} 
+.login{ 
+   display: flex; 
+   gap: 10px; 
+   align-items: center; 
+   padding: 10px;
+}
+.login .btn{  
+    width: 150px;
+    height:40px;
+    background-color:#1e90ff;
+    color:white;
+    border:none;
+    border-radius: 5px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+            0 1px 3px rgba(0, 0, 0, 0.08); 
+            cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+.signup{
+   display: flex; 
+   gap: 10px; 
+   align-items: center;  
+   flex-direction: column;
+   padding: 10px;
+} 
+.btntwo{  
+     background-color:#1e90ff; 
+     border: none; 
+     color:white; 
+     width: 96%;  
+     margin-right: 12px; 
+     height:40px; 
+    cursor: pointer; 
+    border-radius: 5px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+            0 1px 3px rgba(0, 0, 0, 0.08); 
+            
+}
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+@media(max-width:767px){
+    body{
+        background-color:aliceblue;
+    } 
+    .container,.containertwo{
+        border-radius: 0; 
+        box-shadow:none; 
+        background-color:aliceblue;
+    } 
+    
+}

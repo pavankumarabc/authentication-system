@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container">
+        <h3>welcome</h3> 
+        <p id="dashboard-name"></p>
+    </div> 
+    <script> 
+//main dash 
+let userdata=JSON.parse(localStorage.getItem('userInfo'));
+if(userdata){
+document.getElementById('dashboard-name').innerText=`profile : ${userdata.name}`;
+}
+    </script>
+</body>
+</html>

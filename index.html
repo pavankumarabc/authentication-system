@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>   
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>   
+<body>   
+
+  <!--box-starts --> 
+
+
+  <div class="container show">  
+
+
+    <div class="heading"><p>registration</p></div>
+
+    <form>  
+
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="name">  
+      <span id="nameerror"></span> 
+
+      <label for="mail">E-mail</label> 
+      <input type="email"id="mail"placeholder="123abc@gmail.com"> 
+      <span id="mailerror"></span>  
+      
+       <label for="password">password</label>
+
+       <!---password +eye icon-->
+      <div class="password-field">
+      <input type="password" id="password"placeholder="password"> 
+      <span id="passworderror"></span> 
+
+      <div class="eye"id="toggle-eye">
+        <i class="fa-solid fa-eye"></i>
+      </div>
+
+      </div>
+
+    </form> 
+    
+    <!--buttons--> 
+    <div class="login">  
+
+      <button id="btn" type="submit" class="btn">register</button>
+
+     <div>
+       <p>already i have account  <a href="" id="entertologin">login</a> </p> 
+     </div> 
+
+    </div>
+
+  </div>  
+
+  <!----container-two --->
+  <div class="containertwo hide"> 
+
+    <div class="heading"><p>Login</p></div>
+
+    <form>  
+
+      <label for="name">Name</label>
+      <input type="text" id="loginname" placeholder="pavan">  
+      <span id="loginerror"></span> 
+
+      
+       <label for="password">password</label>
+      <!--passwordtwo+eye icons-->
+      <div class="password-field">
+      <input type="password" id="loginpassword"placeholder="password">  
+      <span id="loginpasssworderror"></span> 
+
+      <div class="eye"id="logintoggleeye">
+        <i class="fa-solid fa-eye"></i>
+      </div>
+
+      </div>
+
+    </form> 
+    
+    <!--buttons--> 
+    <div class="signup">  
+
+      <button id="signupbtn" type="button" class="btntwo">register</button> 
+
+     <div>
+       <p>i dont have an account <a href="" id="entertosignup">register</a></p> 
+     </div> 
+
+    </div>
+
+  </div> 
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
