@@ -124,7 +124,7 @@ signupbtn.addEventListener('click',()=>{
     loginpassword.value = ""; 
 
     //redirecting 
-    window.location.href="practice.html";
+    window.location.href="maindash.html";
 
   } else{
   if(userdata.pass!==loginpasswordfield){
